@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/list_message_update"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/list_display"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        />
+
+    <ListView
+        android:id="@+id/list_display"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/add_btn"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/la_add_btn_text"
+        android:layout_alignParentBottom="true"
+    />
+
+    <Button
+        android:id="@+id/edit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/la_edit_btn_text"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/add_btn"
+        />
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/la_delete_btn_text"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/edit_btn"
+        />
+</RelativeLayout>

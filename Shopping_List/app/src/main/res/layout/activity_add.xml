@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/tv_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/tv_display_init"
+        android:textSize="20sp"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+
+        />
+    <ListView
+        android:id="@+id/lv_mainlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_display"
+        android:layout_above="@+id/et_new_strings"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="5dp"
+        />
+
+    <EditText
+        android:id="@id/et_new_strings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:inputType="text"
+        android:hint="@string/et_hint"
+        />
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aa_btn_back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        />
+</RelativeLayout>

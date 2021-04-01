@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="la_add_btn_text">Add item</string>
+    <string name="la_edit_btn_text">Edit list</string>
+    <string name="la_delete_btn_text">Delete List</string>
+    <string name="aa_btn_back">Back</string>
+    <string name="hello_world">Hello World</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="ea_tv_text">Current items on your list:\n- LongTouch Item to delete it\n- ShortTouch item to edit it</string>
+    <string name="tv_display_init">Add to your shopping cart:</string>
+    <string name="et_hint">Enter item here to add to your list</string>
+</resources>
